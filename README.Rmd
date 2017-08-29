@@ -45,7 +45,7 @@ new name | original name | description
 ```{r}
 require(sophistication)
 
-# make the snipepts of one sentence, between 100-350 chars in length
+# make the snipepts of one sentence, between 100-250 chars in length
 snippetData <- snippets_make(data_corpus_SOTU, nsentence = 1, minchar = 150, maxchar = 250)
 # clean up the snippets
 snippetData <- snippets_clean(snippetData)
